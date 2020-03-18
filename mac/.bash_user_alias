@@ -27,7 +27,6 @@ alias terror="f /www/rob/logs/rob.global.prod.exception.json /www/ss/logs/ss.glo
 alias idea-proxy="docker run -d -p 8800:8888 --restart=always -d --name idea-proxy ilanyu/golang-reverseproxy"
 alias idea-proxy-start="docker start idea-proxy"
 alias services='brew services'
-alias ls="ls --color=auto"
 alias ll="ls -lh"
 alias la="ls -lA"
 alias l="ls -CF"
