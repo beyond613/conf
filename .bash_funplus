@@ -4,12 +4,11 @@ alias wake_work_pc='wakeonlan fc:aa:14:11:1e:11 && wakeonlan -i 10.0.15.33  fc:a
 
 alias ss-server='cd ~/www/ss/ss-server'
 alias ss-data='cd ~/www/ss/ss-data-config'
-alias ss-client='cd ~/workspace/ss-client/project/nexgen-dragon'
+alias ss-client='cd ~/www/ss/ss-client/project/nexgen-dragon'
+alias ss-go='cd ~/www/go/src'
 alias ss-log='cd ~/www/ss/logs'
 alias ss-error='tail -F ~/www/ss/logs/ss.global.dev.exception.json'
-
-alias services='sudo brew services'
-
+alias services='brew services'
 
 fssh() {
 	arg=($@)
